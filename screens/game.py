@@ -2,9 +2,6 @@
 import sys
 import pygame
 
-from classes.ObstacleFactory import ObstacleFactory
-from classes.Tank import Tank
-
 pygame.init()
 
 
