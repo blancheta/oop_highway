@@ -10,10 +10,6 @@ pygame.init()
 screen = pygame.display.set_mode((400, 600), 0, 32)
 bg_color = (0, 0, 0)
 
-# Game Menu
-pygame.display.set_caption('Game Menu')
-menu_items = ('Start', 'Settings', 'Quit')
-
 # Views initialization
 g = None
 
@@ -23,7 +19,7 @@ while mainloop:
 
 	screen.fill(bg_color)
 
-	pygame.display.set_caption('Mini Tank')
+	pygame.display.set_caption('Mini Car')
 	g = Game(screen)
 	g.run()
 

@@ -65,6 +65,6 @@ class Game:
             if self.time_elapsed_since_last_action > 20:
                 self.time_elapsed_since_last_action = 0
 
-            self.screen.blit()
+            # self.screen.blit()
 
             pygame.display.flip()
